@@ -1,0 +1,19 @@
+=== FINAL SUMMARY ===
+Brute Force: 1950
+SQL Injection: 501
+XSS: 509
+LFI: 104
+Scanner/Bot: 430
+
+Top IPs:
+127.0.0.1: 3041 requests
+201.57.99.49: 1 requests
+212.181.165.232: 1 requests
+66.232.232.14: 1 requests
+244.103.45.86: 1 requests
+203.150.224.49: 1 requests
+120.61.162.57: 1 requests
+145.219.102.239: 1 requests
+158.143.195.141: 1 requests
+130.236.74.88: 1 requests
+                           
