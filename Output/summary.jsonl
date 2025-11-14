@@ -1,0 +1,97 @@
+{"ip": "16.191.19.217", "attack": "Scanner/Bot", "path": "/app.py"}
+{"ip": "73.134.61.197", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "117.42.64.113", "attack": "Scanner/Bot", "path": "/search?q=hello"}
+{"ip": "237.8.193.61", "attack": "XSS", "path": "/search?q=%253Cbody%2520onload%253Dalert%25281%2529%253E"}
+{"ip": "192.126.168.123", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "140.75.117.55", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "6.83.28.58", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "62.97.109.18", "attack": "Scanner/Bot", "path": "/search?q=how+to+cook+rice"}
+{"ip": "246.52.220.38", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "112.180.251.85", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "65.61.181.53", "attack": "XSS", "path": "/search?q=%253Csvg%2Fonload%253Dalert%2528%2527XSS%2527%2529%253E"}
+{"ip": "131.79.124.160", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "60.64.117.104", "attack": "Scanner/Bot", "path": "/search?q=hello"}
+{"ip": "13.36.171.76", "attack": "XSS", "path": "/search?q=%253Cbody%2520onload%253Dalert%25281%2529%253E"}
+{"ip": "148.64.134.90", "attack": "Scanner/Bot", "path": "/search?q=flask+tutorial"}
+{"ip": "156.224.5.217", "attack": "Scanner/Bot", "path": "/search?q=flask+tutorial"}
+{"ip": "104.236.155.44", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520UNION%2520SELECT%2520username%252C%2520password%2520FROM%2520users%2520--"}
+{"ip": "233.231.67.198", "attack": "LFI", "path": "/php://filter/convert.base64-encode/resource=index.php"}
+{"ip": "99.92.92.154", "attack": "Scanner/Bot", "path": "/search?q=user123"}
+{"ip": "192.210.43.90", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%2520SLEEP%25283%2529%2520--"}
+{"ip": "25.77.233.179", "attack": "XSS", "path": "/search?q=%253Cbody%2520onload%253Dalert%25281%2529%253E"}
+{"ip": "117.205.230.249", "attack": "Scanner/Bot", "path": "/login.php?user=%2527%2520OR%2520%25271%2527%253D%25271"}
+{"ip": "226.113.26.128", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "95.96.202.100", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520UNION%2520SELECT%2520NULL%252CNULL%2520--"}
+{"ip": "154.143.85.231", "attack": "Scanner/Bot", "path": "/search?q=%253Cscript%253Ealert%25281%2529%253C%2Fscript%253E"}
+{"ip": "251.127.204.32", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "203.251.104.196", "attack": "XSS", "path": "/search?q=%253Cbody%2520onload%253Dalert%25281%2529%253E"}
+{"ip": "166.147.49.8", "attack": "Scanner/Bot", "path": "/search?q=%253Cscript%253Ealert%25281%2529%253C%2Fscript%253E"}
+{"ip": "193.236.145.91", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520UNION%2520SELECT%2520username%252C%2520password%2520FROM%2520users%2520--"}
+{"ip": "165.81.217.84", "attack": "Scanner/Bot", "path": "/login.php?user=%2527%2520OR%2520%25271%2527%253D%25271"}
+{"ip": "145.115.7.117", "attack": "XSS", "path": "/search?q=%253Csvg%2Fonload%253Dalert%2528%2527XSS%2527%2529%253E"}
+{"ip": "179.247.237.203", "attack": "XSS", "path": "/search?q=%2522%253E%253Cimg%2520src%253Dx%2520onerror%253Dalert%25281%2529%253E"}
+{"ip": "98.253.33.50", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "62.235.12.167", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520UNION%2520SELECT%2520NULL%252CNULL%2520--"}
+{"ip": "109.86.46.196", "attack": "XSS", "path": "/search?q=%2522%253E%253Cimg%2520src%253Dx%2520onerror%253Dalert%25281%2529%253E"}
+{"ip": "27.116.66.251", "attack": "Scanner/Bot", "path": "/app.py"}
+{"ip": "183.69.144.173", "attack": "Scanner/Bot", "path": "/search?q=%253Cscript%253Ealert%25281%2529%253C%2Fscript%253E"}
+{"ip": "1.93.25.230", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%2520SLEEP%25283%2529%2520--"}
+{"ip": "53.134.28.5", "attack": "XSS", "path": "/search?q=%2522%253E%253Cimg%2520src%253Dx%2520onerror%253Dalert%25281%2529%253E"}
+{"ip": "167.14.130.39", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%25201%253D1%2520--"}
+{"ip": "48.95.181.237", "attack": "Scanner/Bot", "path": "/search?q=%253Ciframe%2520src%253Djavascript%253Aalert%25281%2529%253E"}
+{"ip": "72.166.163.235", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "138.61.97.100", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "254.196.176.36", "attack": "Scanner/Bot", "path": "/search?q=user123"}
+{"ip": "194.139.176.65", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "20.94.132.47", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520UNION%2520SELECT%2520NULL%252CNULL%2520--"}
+{"ip": "86.220.59.246", "attack": "LFI", "path": "/php://filter/convert.base64-encode/resource=index.php"}
+{"ip": "193.12.50.183", "attack": "XSS", "path": "/search?q=%253Cbody%2520onload%253Dalert%25281%2529%253E"}
+{"ip": "29.104.197.153", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%25201%253D1%2520--"}
+{"ip": "48.231.246.239", "attack": "XSS", "path": "/search?q=%253Csvg%2Fonload%253Dalert%2528%2527XSS%2527%2529%253E"}
+{"ip": "93.167.23.81", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "39.198.177.154", "attack": "Scanner/Bot", "path": "/search?q=search+something"}
+{"ip": "12.12.242.203", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%25201%253D1%2520--"}
+{"ip": "121.65.17.84", "attack": "Scanner/Bot", "path": "/login.php?user=%2527%2520OR%2520%25271%2527%253D%25271"}
+{"ip": "91.135.11.253", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "136.163.192.244", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "205.117.69.159", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520UNION%2520SELECT%2520NULL%252CNULL%2520--"}
+{"ip": "23.92.228.130", "attack": "XSS", "path": "/search?q=%2522%253E%253Cimg%2520src%253Dx%2520onerror%253Dalert%25281%2529%253E"}
+{"ip": "25.147.141.8", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "225.204.30.140", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "33.30.68.187", "attack": "SQL Injection", "path": "/login.php?user=admin%2527%2520--"}
+{"ip": "189.31.4.189", "attack": "XSS", "path": "/search?q=%253Cbody%2520onload%253Dalert%25281%2529%253E"}
+{"ip": "98.182.165.155", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "43.184.186.146", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "242.183.63.200", "attack": "Scanner/Bot", "path": "/app.py"}
+{"ip": "18.15.102.123", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "204.184.191.14", "attack": "Scanner/Bot", "path": "/search?q=%253Cscript%253Ealert%25281%2529%253C%2Fscript%253E"}
+{"ip": "115.73.27.68", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "136.22.70.225", "attack": "Scanner/Bot", "path": "/search?q=weather+today"}
+{"ip": "66.250.225.156", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "223.79.244.214", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%2520SLEEP%25283%2529%2520--"}
+{"ip": "113.114.217.54", "attack": "Scanner/Bot", "path": "/search?q=flask+tutorial"}
+{"ip": "33.63.116.208", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "142.53.96.193", "attack": "Scanner/Bot", "path": "/search?q=%253Ciframe%2520src%253Djavascript%253Aalert%25281%2529%253E"}
+{"ip": "40.152.243.132", "attack": "Scanner/Bot", "path": "/search?q=flask+tutorial"}
+{"ip": "210.23.93.52", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%2520SLEEP%25283%2529%2520--"}
+{"ip": "87.245.109.198", "attack": "Scanner/Bot", "path": "/windows/win.ini"}
+{"ip": "94.22.114.103", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "10.240.112.224", "attack": "Scanner/Bot", "path": "/app.py"}
+{"ip": "211.26.73.71", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%25201%253D1%2520--"}
+{"ip": "139.186.254.183", "attack": "XSS", "path": "/search?q=%253Cbody%2520onload%253Dalert%25281%2529%253E"}
+{"ip": "192.236.235.152", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%2520SLEEP%25283%2529%2520--"}
+{"ip": "232.252.70.32", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "43.34.83.231", "attack": "Scanner/Bot", "path": "/search?q=kali"}
+{"ip": "58.130.92.226", "attack": "Scanner/Bot", "path": "/search?q=search+something"}
+{"ip": "5.243.64.79", "attack": "Scanner/Bot", "path": "/search?q=weather+today"}
+{"ip": "74.51.158.198", "attack": "LFI", "path": "/etc/passwd"}
+{"ip": "50.92.33.116", "attack": "Scanner/Bot", "path": "/search?q=weather+today"}
+{"ip": "140.96.123.131", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520OR%2520SLEEP%25283%2529%2520--"}
+{"ip": "203.159.83.220", "attack": "SQL Injection", "path": "/login.php?user=admin%2527%2520--"}
+{"ip": "195.105.82.111", "attack": "LFI", "path": "/php://filter/convert.base64-encode/resource=index.php"}
+{"ip": "100.22.233.18", "attack": "SQL Injection", "path": "/login.php?user=%2527%2520UNION%2520SELECT%2520username%252C%2520password%2520FROM%2520users%2520--"}
+{"ip": "112.53.243.126", "attack": "Scanner/Bot", "path": "/search?q=kali"}
+{"ip": "122.203.82.192", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "87.148.203.194", "attack": "Scanner/Bot", "path": "/login.php"}
+{"ip": "132.182.155.225", "attack": "LFI", "path": "/etc/passwd"}
+                                                     
