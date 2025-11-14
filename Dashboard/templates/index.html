@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Log Analyzer Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+    <h1>🔐 Secure Log Analyzer Dashboard</h1>
+
+    <div class="card">
+        <h2>Attack Summary</h2>
+        <ul>
+            {% for key, value in summary.items() %}
+                <li><strong>{{ key }}</strong>: {{ value }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Attack Distribution</h2>
+        <canvas id="attackChart"></canvas>
+    </div>
+
+    <div class="card">
+        <h2>Recent Alerts</h2>
+        <table>
+            <tr>
+                <th>Attack</th>
+                <th>IP</th>
+                <th>Path</th>
+            </tr>
+            {% for a in alerts[-20:] %}
+            <tr>
+                <td>{{ a.attack }}</td>
+                <td>{{ a.ip }}</td>
+                <td>{{ a.path }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <script>
+    const ctx = document.getElementById('attackChart').getContext('2d');
+    const chart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: {{ attack_labels | safe }},
+            datasets: [{
+                data: {{ attack_values | safe }},
+                borderWidth: 1
+            }]
+        }
+    });
+    </script>
+
+</body>
+</html>
+              
