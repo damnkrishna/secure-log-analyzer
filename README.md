@@ -239,7 +239,6 @@ Dashboard shows:
 ```
 
 Summary:
-
 ```
 SQLi: 104
 XSS: 233
@@ -254,5 +253,6 @@ Top IPs:
  - 45.166.23.8 : 121 requests
  - 76.22.10.7 : 64 requests
 ```
+
 
 ---
